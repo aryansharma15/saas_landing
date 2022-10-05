@@ -154,6 +154,9 @@ nav{
 }
 
 @media screen and (max-width: 1280px){
+    html{
+        height: 1900px;
+    }
     /* --------------------------- NAVBAR ---------------------- */
     .nav-links{
         left: 60px;
@@ -181,11 +184,13 @@ nav{
 
     /* -------------------FEATURE SECTION---------------------- */
     .boxes{
+        margin: 0px auto;
         flex-wrap: wrap;
+        width: 700px;
     }
 
     .feat-divs{
-        width: 40%;
+        width: 34%;
         margin-bottom: 50px;
     }
 
